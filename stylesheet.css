@@ -1,0 +1,408 @@
+/* ==== GLOBAL STYLES ==== */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	font: 20px Helvetica;
+}
+
+h2 {
+	font: bold 20px Helvetica;
+	color: white;
+}
+
+header, section, footer, aside, nav{
+	display: block;
+}
+
+body {
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	background-color: black;
+
+}
+
+/* ==== CONTAINER/S==== */
+
+#big_wrapper {
+	max-width: 960px;
+	margin: 20px 0px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+}
+
+#main_container {
+	display: -webkit-box;
+	margin: 15px 0px 0px 0px;
+	-webkit-box-orient: horizontal;
+	background: #202020;
+	padding: 20px;
+}
+
+/* ==== HEADER ==== */
+
+#top_header {
+	margin: 20px 0px 2px 0px;
+	border-bottom: 1px solid gray;
+}
+
+.logo {
+	display: inline-block;
+}
+
+#page_name {
+	background: rgb(0, 174, 239);
+	background: rgba(0, 174, 239, 0.6);
+	padding: 5px 10px 5px 10px;
+}
+
+#page_name h1 {
+	font: bold 28px Helvetica;
+	color: white;
+}
+
+/* ==== NAVIGATION ==== */
+
+#top_menu {
+	color: white;
+	margin: 91px 0px 0px 0px;
+	float: right;
+
+}
+
+#top_menu li {
+	display: inline-block;
+	list-style: none;
+}
+
+.index_button {
+	-webkit-box-flex: 1;
+	padding: 5px 20px 5px 20px;
+	font: 15px Helvetica, Open Sans, Arial bold;
+	color: white;
+	-webkit-transition: color 0.5s;
+}
+
+.index_button:hover {
+	opacity: 1;
+	color: gray;
+}
+
+.bio_button {
+	-webkit-box-flex: 1;
+	padding: 5px 20px 5px 20px;
+	font: 15px Helvetica, Open Sans, Arial bold;
+	color: white;
+	-webkit-transition: color 0.5s;
+}
+
+.bio_button:hover {
+	opacity: 1;
+	color: gray;
+}
+
+.gallery_button {
+	-webkit-box-flex: 1;
+	padding: 5px 20px 5px 20px;
+	font: 15px Helvetica, Open Sans, Arial bold;
+	color: white;
+	-webkit-transition: color 0.5s;
+}
+
+.gallery_button:hover {
+	opacity: 1;
+	color: gray;
+}
+
+
+/* ==== MAIN SECTION ==== */
+
+#main_section {
+	-webkit-box-flex: 1;
+}
+
+#main_section h1 {
+	font: 20px Helvetica;
+	color: white;
+	border-bottom: 1px solid gray;
+	margin: 10px 0px 10px 0px;
+}
+
+#main_section p {
+	font: 14px Helvetica;
+	color: gray;
+}
+
+/* === ABOUT Page ===*/
+
+#welcome{
+	height:600px;
+	width:280px;
+
+}
+#about_main_section {
+	-webkit-box-flex: 1;
+}
+
+#about_text{
+	-webkit-box-flex: 1;
+	height: 400px;
+	background: #202020;
+	padding: 5px 20px 5px 20px;
+}
+
+#about_text h2 {
+	border-bottom: 1px solid gray;
+}
+
+#about_text p {
+	font: 18px Open Sans, Calibri;
+	color: white;
+}
+#quote p {
+	padding:10px;
+	font: Lucida Handwriting;
+	font-size: 120%;
+	font-style:italic;
+	text-align: center;
+	color: rgb(0, 174, 239);
+	color: rgba(0, 174, 239, 0.6);
+	
+
+}
+/* === Gallery Page ===*/
+
+.resizeG{
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+}
+
+/* === VIDEO=== */
+
+.video {
+	-webkit-box-flex: 1;
+	display: inline-block;
+	width:920px;
+	height:500px;
+
+}
+
+/* ==== SIDE SECTION ==== */
+
+#side_bar {
+	-webkit-box-flex: 0;
+	width: 300px;
+	margin: 0px 0px 5px 0px;
+	border-right: 1px solid gray;
+/*	background: #00aeef; */
+}
+
+#side_bar h2 {
+	font: 17px Helvetica, OpenSans-Regular, Arial bold;
+}
+
+/* ==== BIO page ==== */
+
+#contents {
+	height: 1650px;
+	width: 300px;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+#contents p {
+	float: right;
+	font: 22px Open Sans, Arial bold, sans-serif;
+	color: white;
+	margin: 0px 10px 0px 0px;
+	letter-spacing: 2px;
+}
+
+#contents h1{
+	font: 20px Helvetica, Open Sans, Arial bold, sans-serif;
+	color: white;
+	padding: 10px 12px 10px 12px;
+	background: rgba(0, 174, 239, 0.6);
+}
+
+#contents ul li {
+	font: 20px Helvetica, Open Sans, Arial bold, sans-serif;
+	color: white;
+	padding: 8px 20px 8px 20px;
+	list-style: none;
+}
+
+#contents a {
+	text-decoration: none;
+}
+
+#contents li:hover {
+	background: rgba(150, 150, 150, 0.7);
+}
+.resize{ 
+	height:240px; 
+		width:290px;
+}
+
+#side_bar2 {
+	-webkit-box-flex: 0;
+	margin: 0px 0px 5px 0px;
+}
+
+#new_div2 {
+	display: -webkit-box;
+	margin: 15px 0px 0px 0px;
+	-webkit-box-orient: horizontal;
+	background: black;
+}
+
+/* === CONTENT === */
+
+#resources_text{
+	-webkit-box-flex: 1;
+	height: 2600px;
+	width: 660px;
+	padding: 2px 0px 0px 0px;
+	background: #202020;
+}
+
+#resources_text h1 {
+	border-bottom: 1px solid gray;
+	padding: 0px 8px 0px 8px;
+	margin: 8px 10px 8px 10px;
+	color: white;
+}
+
+#resources_text a {
+	list-style: none;
+	font: 15px Helvetica, Calibri, Arial;
+}
+
+#resources_text ul li {
+	font: 15px Helvetica, Calibri, Arial;
+	color: white;
+	padding: 15px 20px 5px 25px;
+	list-style: none;
+}
+#resources_text ol li {
+	font: 15px Helvetica, Calibri, Arial;
+	color: white;
+	padding: 15px 20px 5px 25px;
+}
+
+#resources_text ul p {
+	font: 15px Helvetica, Calibri, Arial;
+	color: white;
+	padding: 0px 5px 5px 5px;
+}
+
+#resources_text p {
+	font: 15px Helvetica, Calibri, Arial;
+	color: white;
+	padding: 15px 15px 0px 15px;
+} 
+
+.resources_text1 {
+	margin: 0px 0px 5px 0px;
+	padding: 15px 0px 15px 0px;
+}
+
+.resources_text1 ul li a {
+	color:#4686e5;
+
+}
+
+.resources_text2 {
+	margin: 0px 0px 5px 0px;
+	padding: 15px 0px 15px 0px;
+}
+
+.resources_text3 {
+	margin: 0px 0px 5px 0px;
+	padding: 15px 0px 15px 0px;
+}
+.resources_text3.5{
+	margin: 0px 0px 5px 0px;
+	padding: 15px 0px 15px 0px;
+}
+
+.resources_text4 {
+	margin: 0px 0px 5px 0px;
+	padding: 15px 0px 15px 0px;
+}
+
+.resources_text4 ul li a{
+	color:#4686e5;
+}
+.resources_text4 ol li{
+	color:white;
+	margin: 5px 0px 5px 50px;
+	padding: 15px 0px 15px 0px;
+}
+
+.h3 {
+	background: rgba(0, 174, 239, 0.6);
+	padding: 5px 5px 5px 10px;
+	font: 18px Helvetica;
+	color: white;
+}
+
+/* ==== FOOTER ==== */
+
+#footer_note {
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 15px;
+	font: 12px Helvetica, Calibri, Arial bold;
+	background: black;
+	color: white;
+}
+
+#footer_note li {
+	color: white;
+	margin: 20px;
+	list-style-type: none;
+	display: inline;
+}
+
+#footer_note a {
+	text-decoration: none;
+	color: white;
+}
+
+#footer_note a:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+/*=== TABLES ===*/
+.table, th, td{                            
+	border: 1px solid black;
+	border-collapse:collapse;
+	color:white;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    margin-right: 100px;
+    margin-left: 150px;
+}
+
+.span{
+	color:orange;
+}
+p.intro::first-letter{
+	color: rgb(0, 174, 239);
+	color: rgba(0, 174, 239, 0.6);
+    font-size:200%;
+}
+.map{
+	display: inline-block;
+	width:656px;
+	height:340px;
+}
+
